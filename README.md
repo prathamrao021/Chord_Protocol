@@ -6,7 +6,7 @@ Move to the project directory and run the following command:
 dotnet run <numNodes> <numRequests>
 ```
 ### What is working?
-"*" Both scalable and simple key lookups follow logarithmic trends and linear trends, respectively. 
+* Both scalable and simple key lookups follow logarithmic trends and linear trends, respectively. 
 *The starting node is produced statically. 
 *Based on consistent hashing, the remaining nodes are dynamically generated and inserted into the chord ring. 
 *Finger tables and the scalable lookup technique described in the article are used to find the successor of both the node and the key. 
